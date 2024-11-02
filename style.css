@@ -16,16 +16,28 @@ div {
 }
 .biografia {
     margin: auto
-    max-width: 400px;
     height: 350px;
     text-align: justify;
 }
 .foto {
-    border-color: red;
+    background-color: lightcoral;
     width: 100px;
     height: 100px;
 }
 img{
     border-radius: 50%;
-    border-color: red;
+}
+thead {
+    text-transform: uppercase;
+    border-bottom: 2px solid black;
+    text-align: left;
+}
+tbody {
+    background-color: brown;
+}
+td:hover {
+    background-color: blue;
+}
+td {
+    border: 2px solid black;
 }
